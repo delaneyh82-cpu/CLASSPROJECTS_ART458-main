@@ -1,0 +1,25 @@
+:root{
+    font-size: 18px;
+    transform:scaleX(0.7);
+}
+
+
+div{
+
+    outline: 3px solid #F0F; 
+    padding:10px; 
+    max-width: 300px;
+    max-height: 300px;
+    overflow-x: scroll;
+    transform: rotate(45deg);
+    transform: skewY(18deg);
+    transform: skewX(60deg)
+
+}
+
+p {
+    background-color:aqua;
+    padding: 5px;
+    min-width:700px;
+    transform: skew(120deg)
+}

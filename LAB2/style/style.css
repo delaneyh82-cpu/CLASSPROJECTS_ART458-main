@@ -1,0 +1,101 @@
+/*
+* {
+
+    outline: 1px solid aquamarine ;
+}
+*/
+
+/* This section is for the main page */
+
+.komet-regular {
+
+    font-family: "komet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: "komet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+
+    background-color: rgb(229, 146, 13);
+    text-align:center;
+
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+nav {
+
+    background-color:rgb(155, 97, 6) ;
+    text-align: center;
+    padding:20px 0px;
+
+}
+
+a {
+    color:antiquewhite;
+    font-size: 36pt;
+}
+
+nav > a {
+    padding:10px 20px;
+}
+
+main {
+
+    text-align: center;
+    padding: 0px 10vw;
+}
+
+img {
+
+    width: 100%;
+}
+
+h1 {
+    color:rgb(155, 97, 6);
+    font-weight: 900;
+}
+
+p {
+    color:rgb(155, 97, 6);
+    font-size: 24pt;
+}
+
+header > h1 {
+
+    color:rgb(240, 229, 132);
+    font-size: 48pt;
+}
+
+footer {
+
+    background-color: rgb(155, 97, 6);  /* Mustafa HATES this color*/
+    color:antiquewhite; 
+    min-height: 250px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer > p {
+
+    color:antiquewhite;
+}
+
+
+
+/* Hey guys please use the rest of this area for specific code, thx */

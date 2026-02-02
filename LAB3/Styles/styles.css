@@ -1,0 +1,130 @@
+/* #ssn{
+    color: red;
+}
+
+#statusResult{
+    color: blue;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+    } */
+
+.Quita {
+
+    font-family: "quita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+   
+.Council{
+
+    font-family: "council", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Salvation{ 
+font-family: "salvation", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.Erotique {
+    font-family: "erotique-alternate-monoline", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.Shlop {
+    font-family: "shlop", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.center{
+
+    text-align: center;
+
+}
+
+
+body{
+
+    font-size: 18pt;
+
+}
+
+
+.blue{
+
+    color:blue;
+}
+
+.red{
+    color:red;
+}
+
+.pink{
+
+    color: pink;
+}
+
+.bold{
+
+    font-weight: bold;
+}
+
+.italic{
+
+    font-style:italic;
+}
+
+.orange{
+
+    color:orange;
+}
+
+.lightShade{
+
+    /* background-color:rgb(221, 221, 221); */
+}
+
+.darkShade{
+
+    /* background-color:rgb(149, 149, 149); */
+}
+
+p.shaded{
+
+    background-color: rgb(201, 211, 253);
+    padding-top: 40px;
+    padding-bottom:40px;
+
+    margin-left:180px;
+    margin-right: 180px;
+}
+
+h2.shaded{
+
+    background-color: rgb(255, 249, 188);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    margin-left:30%;
+    margin-right:30%;
+}
+
+h2.italic{
+
+    background-color:rgb(193, 164, 221);
+}
+
+h1#pageTitle{
+
+    color:red;
+    font-family: Helvetica;
+}
+
+.background{
+    color:darkgoldenrod;
+}
