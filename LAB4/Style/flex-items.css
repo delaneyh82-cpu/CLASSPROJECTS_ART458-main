@@ -1,0 +1,77 @@
+*{
+
+    outline: 2px solid magenta;
+}
+
+:root{
+
+    font-size:18px;
+}
+
+#parent{
+
+    width: 100vw;
+    height: 100vh;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    
+
+    gap:10px;
+}
+
+#parent div{
+ 
+    /*width:20vw;
+    height:20vw; */
+
+    color:white;
+ 
+    
+
+    /*min-width:300px;
+    min-height:300px;*/
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.nyc{
+
+    order: 1;
+    background-color:goldenrod;
+    flex-grow:1;
+    flex-shrink:0;
+    flex-basis:700px;
+}
+
+.chicago{
+
+    order:3;
+    background-color:blue;
+    flex-grow: 1;
+}
+
+.la{
+
+    order:2;
+    background-color: chocolate;
+    flex-grow: 2;
+    flex-basis: 500px;
+   
+}
+ 
+.rio{
+
+    order:4;
+    background-color:violet;
+    flex-grow:1;
+}
+
+.la div{
+
+    background-color:darkorange;
+    width:50vw;
+}

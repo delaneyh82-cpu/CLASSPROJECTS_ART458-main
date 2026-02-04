@@ -1,0 +1,25 @@
+*{
+    outline: 3px solid salmon;
+}
+
+#container{
+
+    width:20vw;
+    height:20vw;
+}
+
+#parent{
+
+    width:100vw;
+    height:100vh;
+    background-color:gray;
+}
+
+
+
+.photo{
+
+    background-color: darkgray;
+    width:100px;
+    height:200px;
+}

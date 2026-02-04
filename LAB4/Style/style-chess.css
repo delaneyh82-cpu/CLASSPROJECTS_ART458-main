@@ -11,16 +11,15 @@
 
     display: flex;
     flex-direction:row;
-    flex-wrap:wrap;
+    
     justify-content:center;
     align-items:center;
 
 }
 
 #chess-board{
-    width: 800px;
-    height: 800px;
-    padding: 0px;
+    width: 400px;
+    height: 400px;
 
     display:flex; 
     flex-direction: row; 
@@ -35,10 +34,9 @@
 #chess-board div{
 
     background-color:darkslategrey;
-    width: 80px;
-    height: 80px;
-    outline: 3px solid black;
-    padding: 0px;
+    width: 50px;
+    height: 50px;
+  
 
    /* display: flex;
     flex-direction: row;
@@ -50,3 +48,4 @@
 #chess-board div:nth-of-type(odd){
     background-color:brown;
 }
+
