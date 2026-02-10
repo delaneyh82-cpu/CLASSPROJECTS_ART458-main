@@ -9,10 +9,31 @@
 <body>
     <div id="container">
         <div id="parent"> 
-            <div class="photo"></div>
-            <div class="circle"></div>
-            <div class="icons"></div>
-            <div class="text"></div>
+            <div style="order:2" class="photo"></div>
+
+            <div style="order: 1" class="circle">
+                <span class="dot"></span>
+        
+    
+                <p><b>username</b> 1m <br> Location</p>
+                <span> <p id="ellipses">. . .</p></span>
+            </div>
+            
+
+            <div id="icons-container" style="order:3">
+                <div id="icon1"style="order:1" class="icons"> </div>
+                    <div> <p id="number">5</p></div>
+               <div id="icon2"style="order:2" class="icons"></div>
+               
+               <div id="icon3"style="order:3" class="icons"></div>
+        <div id="separate">
+            <div id="icon4"style="order:4" class="icons"></div>
+        </div>
+            </div>
+
+            <div style="order:4"class="text">
+                <p> <b>username</b> This instagram card uses a flexbox layout. It has been hard to make.</p>
+            </div>
         </div>
     </div> 
 </body>

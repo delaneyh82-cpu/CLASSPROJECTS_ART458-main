@@ -1,18 +1,31 @@
-*{
+/**{
     outline: 3px solid salmon;
-}
+}*/
 
 #container{
-
-    width:20vw;
-    height:20vw;
+    
+    width:100vw;
+    height:100vw;
+    display:flex;
+   
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 #parent{
 
-    width:100vw;
-    height:100vh;
+   display:flex;
+   flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center; 
+    height: 55vw;
+    width: 35vw;
     background-color:gray;
+    padding-left:10px;
+    padding-right:10px;
+
 }
 
 
@@ -20,6 +33,135 @@
 .photo{
 
     background-color: darkgray;
-    width:100px;
-    height:200px;
+    width:35vw;
+    height:20vh;
+
+    flex: 100%;
+
+    /*margin-bottom: 30%;
+    margin-top: 15%; */
+    
+    flex-basis:200px;
+    flex-grow: 5;
+    align-self:center;
+    border-radius: 10px;
+   
+    
+
+    /*min-height:25vh;
+    min-width: 30vw;*/
+    /*display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
 }
+
+
+.icons {
+    background-color:white;
+    width:30px; 
+    height:30px;
+   
+    display: flex;
+    
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    align-self:flex-start;
+    
+    display: inline-block;
+
+    margin: 10px;
+    
+    min-width: 30px;
+    min-height:30px;
+}
+
+.text{
+
+    
+    display:flex;
+    flex-basis: 80px;
+    align-self:center;
+    align-items:center;
+    min-height: 15%;
+    min-width: 100%;
+   
+}
+
+.circle{
+    display:flex;
+    align-self:flex-start;
+    align-items:center;
+    width:35vw;
+    gap: 10px;
+   /* min-height: 10%;
+    max-height: 20%; */
+    
+}
+
+.dot{
+
+    height: 40px;
+    width: 40px;
+    background-color:pink;
+    border-radius:100%;
+    margin:10px;
+    display:inline-block;
+    
+
+}
+
+
+#icons-container{
+    order:1;
+    width:35vw;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:flex-start;
+   
+}
+
+
+
+
+ #icon4 {
+    order: 4;
+    display: flex;
+    align-items:flex-end;
+    justify-self: flex-end;
+    align-self: flex-end;
+    
+    
+}
+
+
+#separate{
+   
+    display:flex;
+    width:27vw;
+    justify-content: flex-end;
+    align-items:flex-end;
+    align-self: flex-end;
+    
+    order:4;
+    
+}
+
+.ellipses {
+   
+
+    
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    align-self: center;
+
+    padding-left: 20vw;
+   
+   
+    
+}
+
