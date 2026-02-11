@@ -17,7 +17,7 @@ body{
 
 header, nav, main, footer{
 
-    
+
 }
 
 header{
@@ -36,6 +36,24 @@ main{
 
     background-color:rgb(232, 187, 9);
     min-height: 500px;
+
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+
+aside{
+
+    background-color:chartreuse;
+    
+
+}
+
+article{
+
+    background-color:rgb(239, 149, 212);
+    
+    
 }
 
 footer{
