@@ -12,6 +12,24 @@ body{
 
 header, nav, main, footer{
 
-    
+
     background-color: burlywood;
+}
+
+header{
+
+    background-color:violet;
+    height: 200px;
+}
+
+nav{
+
+    background-color:rgb(84, 17, 208);
+    height: 100px;
+}
+
+main{
+
+    background-color:rgb(232, 187, 9);
+    min-height: 100px;
 }
