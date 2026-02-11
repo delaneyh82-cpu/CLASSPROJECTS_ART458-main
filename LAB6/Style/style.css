@@ -2,6 +2,11 @@
     font-size: 18pt;
 }
 
+*{
+
+    outline: 2px solid magenta;
+}
+
 body{
 
     margin:0;
@@ -31,5 +36,11 @@ nav{
 main{
 
     background-color:rgb(232, 187, 9);
-    min-height: 100px;
+    min-height: 500px;
+}
+
+footer{
+
+    background-color: darkgreen;
+    min-height:300px;
 }
